@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rajdhani:wght@400;600&display=swap');
+
+/*Poppins 600, sans serif para títulos 
+Poppins 500, sans serif para subtítulos
+Rajdhani 400, sans serif para parágrafos e etc */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 6%;
+}
+
+img {
+    width: 150px;
+}
+
+img:hover {
+    width: 160px;
+}
+
+button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #79ceff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+button:hover {
+    background-color: #79ceff;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    display: none;
+}
+
+
+@media screen and (max-width: 920px) {
+
+    h1 {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button {
+        padding: 10px;
+        background-color: transparent;
+        color: #fff;
+        border-color: #79ceff;
+        cursor: pointer;
+        margin-top: 10%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    li:hover {
+        color: #79ceff;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        border-top: solid 1px #fff;
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+
+}

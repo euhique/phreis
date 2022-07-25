@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rajdhani:wght@400;600&display=swap');
+
+/*Poppins 600, sans serif para títulos 
+Poppins 500, sans serif para subtítulos
+Rajdhani 400, sans serif para parágrafos e etc */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 3%;
+    text-align: center;
+}
+
+li {
+    font-family: 'Rajdhani', sans-serif;
+    padding: 20px;
+    list-style: none;
+}
+
+
+main {
+    text-align: center;
+    border: solid 3px #79ceff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px #fff;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: -10%;
+    padding-right: -10%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 5%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+img {
+    width: 250px;
+    margin-top: -10%;
+
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+footer {
+    display: none;
+}
+
+@media screen and (max-width:920px) {
+
+    main {
+        text-align: center;
+        border: solid 3px #79ceff;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px #fff;
+        padding-top: 3%;
+        padding-bottom: 8%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h1 {
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+
+    h3 {
+        margin-top: 15%;
+    }
+
+    .download {
+        display: flex;
+        justify-content: center;
+        margin-top: -15%;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    li:hover {
+        color: #79ceff;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        border-top: solid 1px #fff;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    .nav-footer {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    
+}
